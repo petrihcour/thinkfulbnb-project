@@ -25,13 +25,14 @@ section {
   padding: 20px;
 }
 
+
 section.alternate-background {
   background-color: #00a699;
   color: #fff;
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */

@@ -21,6 +21,17 @@ p {
   margin: 0;
 }
 
+/* In the about section, add a little more space between the last image and the paragraph  */
+.top-margin {
+  margin-top: 15px;
+}
+
+/* In the Want to Become a Thinkfulbnb Host? section, add a little more space between the last <li> and the image and the thinkful footer  */
+.add-margin {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 section {
   padding: 20px;
 }
@@ -30,6 +41,7 @@ section.alternate-background {
   background-color: #00a699;
   color: #fff;
 }
+
 
 main img {
   width: 100%;
@@ -135,3 +147,99 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 768px) {
+
+  /* NAV SECTION  */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+   
+  .logo {
+    font-size: 48px;
+    padding: 10px;
+  }
+
+  #menu {
+    display: flex;
+    align-items: center;
+  }
+
+  /* FORM SECTION */
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+  }
+
+
+ form div {
+  flex: 1;
+  padding: 15px 30px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  }
+
+  form div label {
+    display: block;
+  }
+
+  form div input,
+  form div select {
+    width: 100%;
+    border-radius: 5%;
+  }
+
+  /* ABOUT SECTION */
+  #about
+  .group
+  {
+    border: 1px red solid;
+   display: flex;
+   flex-direction: row;
+  }
+
+
+  #about .group .item {
+   
+    border: 1px green solid;
+  }
+
+  /* #about .group img {
+   
+  } */
+
+  #about p {
+    flex: 1;
+  }
+
+  /* IDEAS SECTION */
+  #ideas .group {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+  }
+
+  /* #ideas .item {
+  }
+
+  #ideas img {
+  } */
+
+  /* HOST SECTION */
+  /* #host {
+    border: 1px red solid;
+    
+  }
+
+  #host img {
+    
+  } */
+}

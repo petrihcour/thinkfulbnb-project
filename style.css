@@ -19,17 +19,13 @@ h3 {
 p {
   line-height: 1.5em;
   margin: 0;
+  padding: 10px;
+  font-size: 18px;
 }
 
 /* In the about section, add a little more space between the last image and the paragraph  */
 .top-margin {
   margin-top: 15px;
-}
-
-/* In the Want to Become a Thinkfulbnb Host? section, add a little more space between the last <li> and the image and the thinkful footer  */
-.add-margin {
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 section {
@@ -63,6 +59,7 @@ main img {
   flex: 2;
 }
 
+
 /* -------  Navigation ------- */
 
 header {
@@ -75,6 +72,8 @@ header {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 header nav {
@@ -201,37 +200,53 @@ footer p {
   #about
   .group
   {
-    border: 1px red solid;
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
   }
 
 
-  #about .group .item {
-   
-    border: 1px green solid;
+
+  /* GENERAL STYLES  */
+  /* PARAGRAPHS */
+  h2 {
+    font-size: 18px;
   }
 
-  /* #about .group img {
-   
-  } */
+  h3 {
+    font-size: 12px;
+  }
 
-  #about p {
+  p, ul {
+   display: flex;
+   flex: 1;
+   margin: 10px 0;
+   font-size: 10px;
+  }
+
+  /* GROUPS AND ITEMS */
+
+
+  
+  .group .item-double {
+    display: flex;
     flex: 1;
   }
 
+
   /* IDEAS SECTION */
-  #ideas .group {
+  /* #ideas .group {
    display: flex;
    justify-content: space-between;
    flex-direction: row;
-  }
+  
+  } */
 
   /* #ideas .item {
-  }
 
-  #ideas img {
   } */
+
 
   /* HOST SECTION */
   /* #host {

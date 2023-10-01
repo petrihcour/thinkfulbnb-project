@@ -16,11 +16,19 @@ h3 {
   font-weight: 500;
 }
 
-p {
+p, ul {
   line-height: 1.5em;
   margin: 0;
   padding: 10px;
-  font-size: 18px;
+  font-size: 15px;
+}
+
+/* 
+Add margin to the unordered list so it appears tabbed beneath paragraph */
+#host .group .item-double ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
 }
 
 /* In the about section, add a little more space between the last image and the paragraph  */
@@ -141,7 +149,8 @@ footer {
 
 footer p {
   color: #fff;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -173,7 +182,6 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
-    align-items: center;
   }
 
 
@@ -188,6 +196,7 @@ footer p {
 
   form div label {
     display: block;
+    margin-top: 10px;
   }
 
   form div input,
@@ -197,6 +206,7 @@ footer p {
   }
 
   /* ABOUT SECTION */
+  
   #about
   .group
   {
@@ -211,50 +221,45 @@ footer p {
   /* GENERAL STYLES  */
   /* PARAGRAPHS */
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   p, ul {
    display: flex;
    flex: 1;
    margin: 0;
-   font-size: 10px;
+   font-size: 14px;
   }
 
   /* GROUPS AND ITEMS */
 
 
-  
   .group .item-double {
     display: flex;
     flex: 1;
   }
 
-
-  /* IDEAS SECTION */
-  /* #ideas .group {
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
-  
-  } */
-
-  /* #ideas .item {
-
-  } */
-
-
   /* HOST SECTION */
-  /* #host {
-    border: 1px red solid;
-    
+  #host .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  #host img {
-    
-  } */
+  #host .group .item-double {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  #host .group .item-double ul {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

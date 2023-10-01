@@ -219,7 +219,7 @@ footer p {
 
 
   /* GENERAL STYLES  */
-  /* PARAGRAPHS */
+  
   h2 {
     font-size: 20px;
   }
@@ -244,6 +244,7 @@ footer p {
   }
 
   /* HOST SECTION */
+
   #host .group {
     display: flex;
     flex-direction: row;

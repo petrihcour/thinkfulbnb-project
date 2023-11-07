@@ -6,7 +6,7 @@ Thinkfulbnb is a vacation rental website that allows people to rent out their ho
 
 ## Thinkfulbnb views
 
-The UX designer provided you with the following user interface mockups:
+The UX designer provided me with the following user interface mockups:
 
 ### Mobile view
 

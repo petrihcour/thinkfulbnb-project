@@ -48,7 +48,7 @@ section.alternate-background {
 
 
 main img {
-  border-radius: 1%;
+  border-radius: 5px;
   width: 100%;
 }
 
@@ -111,6 +111,7 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
+  border-radius: 5px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -138,6 +139,7 @@ form div input {
 form button {
   background-color: #ff385c;
   border: none;
+  border-radius: 5px;
   color: #fff;
   font-size: 24px;
   padding: 15px;

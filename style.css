@@ -48,6 +48,7 @@ section.alternate-background {
 
 
 main img {
+  border-radius: 1%;
   width: 100%;
 }
 
@@ -129,7 +130,9 @@ form div label {
 form div select,
 form div input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 50%;
+  border-radius: 5px;
+  border: black 1px solid;
 }
 
 form button {
@@ -202,7 +205,7 @@ footer p {
   form div input,
   form div select {
     width: 100%;
-    border-radius: 5%;
+    border-radius: 5px;
   }
 
   /* ABOUT SECTION */
